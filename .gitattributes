@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.bbdoc filter=lfs diff=lfs merge=lfs -text
+up[[:space:]]to[[:space:]]down[[:space:]](Android[[:space:]]&[[:space:]]IOS).bbdoc filter=lfs diff=lfs merge=lfs -text
